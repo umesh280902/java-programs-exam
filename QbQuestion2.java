@@ -5,9 +5,9 @@ import java.util.EventListener;
 public class QbQuestion2 extends Frame implements EventListener{
     QbQuestion2(){
         setTitle("Registration Form");
-        Label l1=new Label("Surname Name");
-        Label l2=new Label("First Name");
-        Label l3=new Label("Father's Name");
+        Label l1=new Label("Surname Name: ");
+        Label l2=new Label("First Name: ");
+        Label l3=new Label("Father's Name: ");
         TextField t1=new TextField();
         TextField t2=new TextField();
         TextField t3=new TextField();
@@ -35,7 +35,7 @@ public class QbQuestion2 extends Frame implements EventListener{
         setSize(600,600);
     }
     public static void main(String[] args) {
-       // QbQuestion2 qb=new QbQuestion2();
+       QbQuestion2 qb=new QbQuestion2();
         
     }
 
