@@ -5,6 +5,7 @@ class addition extends Thread{
         Scanner sc=new Scanner(System.in);
         System.out.println("enter a number:");
         int n=sc.nextInt();
+        sc.close();
         int sum=0;
         for(int i=1;i<=n;i++)
         {
@@ -18,7 +19,6 @@ class addition extends Thread{
             }
         }
         System.out.println(" Thread 1: the sum of the "+ n +" numbers is: "+ sum);
-        sc.close();
     }
 }
 class display implements Runnable{

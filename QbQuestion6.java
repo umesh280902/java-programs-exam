@@ -42,6 +42,7 @@ public class QbQuestion6 {
         System.out.println("enter the rows and columns of the matrix 2");
         p=b.nextInt();
         q=b.nextInt();
+        b.close();
         int matrix2[][]=new int[p][q];
         QbQuestion6 qb=new QbQuestion6();
         System.out.println("enter the elements of the matrix1");
