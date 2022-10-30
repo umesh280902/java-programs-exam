@@ -88,6 +88,10 @@ public class Question15 {
                 user.withdraw(amount);
                 break;
                 case 4:
+                System.exit(0);
+                break;
+                default:
+                System.out.println("Invalid choice!!!!!");
                 break;
 
             }

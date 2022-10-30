@@ -49,8 +49,7 @@ class QbQuestion22{
  System.out.println("Name of Author: "+b[store].author);
  System.out.println("Price per book in RS: "+b[store].price);
  System.out.println();
- System.out.print("Enter the no. of copies you want to purchase: "
-);
+ System.out.print("Enter the no. of copies you want to purchase: ");
  int n=sc.nextInt();
  if(n > b[store].stock)
  {
@@ -58,8 +57,7 @@ class QbQuestion22{
 }
 else {
 System.out.println("Thank You for visiting us!");
-System.out.println("\nTotal price you have to pay: "+(n*b[
-store].price));
+System.out.println("\nTotal price you have to pay: "+(n*b[store].price));
 System.out.println("\nLooking forward for you........");
 }
 }

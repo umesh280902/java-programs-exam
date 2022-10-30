@@ -45,8 +45,7 @@ class UserAccount{
  void withdrawAmount(int amount){
  try {
  if (amount > balance) {
- throw new WithDrawException("the amount to be removed is \n" +
- "greater than the balance");
+ throw new WithDrawException("the amount to be removed is \n" +"greater than the balance");
 }
 balance-=amount;
 System.out.println("You have successfully withdrawn Rs: "+amount);
