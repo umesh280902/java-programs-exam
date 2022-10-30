@@ -110,16 +110,16 @@ public class QbQuestion13{
            System.out.print(array2[i]+"|");  
          }
          System.out.println();  
-      int result=getSecondLargest(array1, m);
+      int result=getSecondLargest(array1, length1);
       System.out.print("the second highest element for the array1 :");
       System.out.println(result);
-      int result2=getSecondLargest(array2, n);
+      int result2=getSecondLargest(array2, length2);
       System.out.print("the second highest element for the array2 :");
       System.out.println(result2);
-      int result3=getSecondSmallest(array1, m);
+      int result3=getSecondSmallest(array1, length1);
       System.out.print("the second Smallest element for the array1 :");
       System.out.println(result3);
-      int result4=getSecondSmallest(array2, n);
+      int result4=getSecondSmallest(array2, length2);
       System.out.print("the second Smallest element for the array2 :");
       System.out.println(result4);
              sc.close();

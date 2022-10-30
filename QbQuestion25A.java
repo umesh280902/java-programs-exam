@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.Vector;
-public class QbQuestion25{
+public class QbQuestion25A{
  public static void main(String[] args) {
  Scanner sc = new Scanner(System.in);
  Vector <Integer> v = new Vector<Integer>();
@@ -15,6 +15,7 @@ public class QbQuestion25{
  System.out.println("vector after deleting last elmt");
  v.remove(v.size()-1);
  printVector(v);
+ sc.close();
  }
  static void printVector(Vector<Integer> v){
  for(int i=0; i<v.size(); i++)

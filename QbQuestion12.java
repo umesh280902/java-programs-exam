@@ -3,9 +3,7 @@ class digits{
     void separateDigits(int num)
     {
         String s = Integer.toString(num);
-         for(int i=0; i<s.length(); i++)
-         System.out.print(s.charAt(i)+" ");
-         System.out.println();
+       System.out.println(s.length());
     }
     void threeNumbers(int n1,int n2,int n3)
     {

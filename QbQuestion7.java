@@ -13,8 +13,8 @@ public class QbQuestion7 {
         int total=0,num=0; 
         do{
             try{
-           System.out.println("enter a number");
-                num=sc.nextInt();
+           System.out.println("enter a number");     
+           num=sc.nextInt();
                 if(num%2==1)
                 {
                     throw new odd("Odd Number");

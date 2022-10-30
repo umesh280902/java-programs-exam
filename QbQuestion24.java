@@ -9,6 +9,7 @@ class Student{
         Id=sc.nextInt();
         name=sc.next();
         branch=sc.next();
+        sc.close();
 
     }
   static int countData( Student arr[])
@@ -35,6 +36,7 @@ public class QbQuestion24 {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the number of students");
         int n=sc.nextInt();
+        sc.close();
         Student arr[]=new Student[n];
         for(int i=0;i<arr.length;i++)
         {
@@ -43,7 +45,6 @@ public class QbQuestion24 {
             arr[i].getData();
             try{
                 if(!(arr[i].branch.equals(new String("Computer"))||arr[i].branch.equals(new String("IT")))){
-                    
                     throw new DifferentBranch("Student is from "+arr[i].branch +" Department");
                 }  
             }catch(DifferentBranch e)

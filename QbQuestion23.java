@@ -10,6 +10,7 @@ public class QbQuestion23 {
         String s=new String();
         System.out.println("please a string");
         s=sc.next();
+        sc.close();
         try{
 
             for(int i=0;i<s.length()/2;i++)

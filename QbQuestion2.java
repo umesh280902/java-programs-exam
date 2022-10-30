@@ -6,10 +6,8 @@ import java.awt.event.ActionListener;
 public class QbQuestion2 extends Frame {
  private Font font=new Font("Tahoma",Font.BOLD,15);
  private Font font1=new Font("Tahoma",Font.PLAIN,16);
-
-    QbQuestion2()
- {
-    //for title of the form
+     QbQuestion2()  {
+    //for title of the form and background of the form
     setTitle("Registration Form of Library");
     setVisible(true);
     setSize(500,650);
@@ -178,14 +176,13 @@ public class QbQuestion2 extends Frame {
         phonenono.setText("");
         feesno.setText("");
         area.setText("");
-        
         }
         }));
  }   
  
     public static void main(String[] args) {
        QbQuestion2 qb=new QbQuestion2();
-        
+      
     }
 
     

@@ -1,8 +1,5 @@
-//import java.sql.SQLSyntaxErrorException;
  import java.util.*;
- //import java.util.stream.StreamSupport;
-
- public class QbQuestion3 {
+public class QbQuestion3 {
 
  static void searchElmt(int arr[], int key){
  int i, n=arr.length;
@@ -16,14 +13,19 @@
  System.out.println("Element is not present");
  }
 
- static int [] removeElmt(int arr[], int key){
+ static void removeElmt(int arr[], int key){
  int result[] = new int[arr.length-1];
 
  for(int i=0, k=0; i<arr.length; i++){
- if(arr[i]==key)continue;
+ if(arr[i]==key)
+ continue;
  result[k++] = arr[i];
  }
- return result;
+ for(int i=0;i<result.length;i++)
+ {
+    System.out.print(result[i]+" ");
+ }
+ System.out.println();
  }
 
  static int [] addElmt(int arr[], int val, int index){
@@ -71,7 +73,7 @@
 
  System.out.println("Enter the value to be removed");
  key = sc.nextInt();
- arr = removeElmt(arr, key);
+ removeElmt(arr, key);
 
  printArr(arr);
 

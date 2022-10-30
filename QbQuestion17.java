@@ -24,11 +24,12 @@ public class QbQuestion17 {
                 System.exit(0);
               }
               else{
+               
                 throw new WrongAnswer("Wrong Answer");
               }
             }catch(WrongAnswer e)
             {
-                System.out.println(" "+e.getMessage());
+                System.out.println(e.getMessage());
             }
         }
         System.out.println("Correct Answer is:Narendra Modi");
